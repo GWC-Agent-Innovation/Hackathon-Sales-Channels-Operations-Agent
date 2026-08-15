@@ -1,0 +1,31 @@
+account_id,meeting_id,am_rep,scheduled_datetime,meeting_type
+ACC-007,MTG-007,Jordan K.,2026-08-15 10:15,Renewal discussion
+ACC-021,MTG-021,Hassan D.,2026-08-15 10:30,QBR
+ACC-019,MTG-019,Marcus T.,2026-08-15 11:00,QBR
+ACC-005,MTG-005,Ravi C.,2026-08-16 11:00,Escalation follow-up
+ACC-010,MTG-010,Nadia P.,2026-08-17 09:15,Monthly check-in
+ACC-002,MTG-002,Marcus T.,2026-08-17 16:30,Renewal discussion
+ACC-016,MTG-016,Elena F.,2026-08-18 09:45,Monthly check-in
+ACC-003,MTG-003,Jordan K.,2026-08-18 11:45,Monthly check-in
+ACC-013,MTG-013,Daniel R.,2026-08-18 13:15,Renewal discussion
+ACC-022,MTG-022,Owen T.,2026-08-20 09:15,Monthly check-in
+ACC-029,MTG-029,Tomas W.,2026-08-20 09:30,Renewal discussion
+ACC-011,MTG-011,Nadia P.,2026-08-20 09:30,QBR
+ACC-020,MTG-020,Priya N.,2026-08-20 11:00,Escalation follow-up
+ACC-008,MTG-008,Leo B.,2026-08-21 11:30,Renewal discussion
+ACC-004,MTG-004,Daniel R.,2026-08-21 16:15,Escalation follow-up
+ACC-006,MTG-006,Elena F.,2026-08-22 10:30,Renewal discussion
+ACC-025,MTG-025,Marcus T.,2026-08-22 13:00,Monthly check-in
+ACC-023,MTG-023,Ananya S.,2026-08-22 14:15,QBR
+ACC-009,MTG-009,Grace L.,2026-08-24 10:45,QBR
+ACC-030,MTG-030,Ravi C.,2026-08-24 11:45,QBR
+ACC-027,MTG-027,Leo B.,2026-08-24 13:30,Renewal discussion
+ACC-001,MTG-001,Jordan K.,2026-08-24 15:45,QBR
+ACC-012,MTG-012,Priya N.,2026-08-25 10:00,QBR
+ACC-028,MTG-028,Daniel R.,2026-08-25 13:15,Monthly check-in
+ACC-018,MTG-018,Priya N.,2026-08-26 09:45,Expansion discovery
+ACC-024,MTG-024,Tomas W.,2026-08-26 13:30,QBR
+ACC-026,MTG-026,Tomas W.,2026-08-27 11:45,Escalation follow-up
+ACC-015,MTG-015,Ananya S.,2026-08-27 15:00,Expansion discovery
+ACC-014,MTG-014,Grace L.,2026-08-28 13:45,QBR
+ACC-017,MTG-017,Ananya S.,2026-08-28 15:15,Expansion discovery

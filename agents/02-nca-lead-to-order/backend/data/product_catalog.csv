@@ -1,0 +1,8 @@
+product_line,unit_price,billing_model,description
+Firewall Bundle,15000,Annual,Next-gen firewall with 3-site coverage and 24/7 monitoring
+Endpoint Security,3500,Monthly or Annual,Endpoint protection and threat detection per 100 seats
+Backup Bundle,8500,Annual,Cloud + on-prem backup with 30-day retention
+Authentication (MFA),2200,Annual,Multi-factor authentication for up to 250 users
+Firewall + Backup Bundle,21000,Annual,"Combined firewall and backup coverage, volume-discounted"
+Endpoint Security + MFA,5200,Annual,Combined endpoint protection and MFA for up to 250 users
+Firewall + Authentication,16500,Annual,Combined firewall and MFA coverage

@@ -1,0 +1,4 @@
+task_id,account_id,type,description,status,created_at,approved_by
+TASK-001,ACC-004,task,Escalate DNSWatch ticket to high priority,approved,2026-08-15T21:39:23,Ananya.S
+TASK-002,ACC-004,task,Assign two more resources to the project,approved,2026-08-15T21:39:23,Ananya.S
+TASK-003,ACC-004,opportunity,Extend subscription for 12 months,approved,2026-08-15T21:39:23,Ananya.S

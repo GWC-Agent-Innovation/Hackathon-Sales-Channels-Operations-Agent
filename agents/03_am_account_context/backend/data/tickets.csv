@@ -1,0 +1,33 @@
+account_id,ticket_id,priority,subject,product_area,status
+ACC-004,TCK-560,Sev-3,Firmware update question,Firebox M590,Open
+ACC-005,TCK-696,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-005,TCK-697,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-006,TCK-608,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-007,TCK-775,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-008,TCK-710,Sev-3,License reassignment request,Endpoint Security,Open
+ACC-008,TCK-711,Sev-2,SIEM alert tuning,Firebox M590,Open
+ACC-009,TCK-849,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-009,TCK-850,Sev-3,Backup job failure notice,Backup,Open
+ACC-010,TCK-821,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-010,TCK-822,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-011,TCK-789,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-011,TCK-790,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-012,TCK-873,Sev-3,Firmware update question,Firebox M590,Open
+ACC-013,TCK-747,Sev-1,Firewall failover not triggering,Firebox M590,Open
+ACC-013,TCK-748,Sev-2,SIEM alert tuning,Firebox M590,Open
+ACC-015,TCK-621,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-017,TCK-570,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-017,TCK-571,Sev-3,Unspecified issue,,Open
+ACC-017,TCK-572,Sev-3,Unspecified issue,,Open
+ACC-018,TCK-913,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-019,TCK-815,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-020,TCK-551,Sev-2,SIEM alert tuning,Firebox M590,Open
+ACC-020,TCK-552,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-021,TCK-798,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-022,TCK-929,Sev-1,Firewall failover not triggering,Firebox M590,Open
+ACC-023,TCK-653,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-023,TCK-654,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-026,TCK-735,Sev-3,Portal login SSO issue,AuthPoint,Open
+ACC-026,TCK-736,Sev-2,DNSWatch policy exception,DNSWatch,Open
+ACC-028,TCK-760,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open
+ACC-028,TCK-761,Sev-3,Wi-Fi AP provisioning,Secure Wi-Fi,Open

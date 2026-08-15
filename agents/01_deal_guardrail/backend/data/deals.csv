@@ -1,0 +1,89 @@
+deal_id,account_id,account_name,rep,rep_role,product_bundle,requires_hardware_shipment,quantity,discount_pct,max_discount_pct,billing_model,term_months,arr,submitted_age,source_status_reference,is_existing_customer_change,previous_quantity,change_reason
+WG-10482,ACC-020,Northstar Managed Services,Priya N.,AM,Firebox M590 + Endpoint Security,True,60,42.0,35.0,Annual prepaid,36,128000,2h,exception,True,49,"Business grew faster than forecast this quarter, existing seats are maxed out"
+WG-10488,ACC-004,BluePeak Technologies,Daniel R.,NCA,Firebox M590,True,15,10.0,20.0,Monthly,12,52000,40m,cleared,True,17,Said budget was cut this cycle and they need to scale back spend
+WG-10499,ACC-017,Meridian Health Systems,Ananya S.,NCA,Firebox M590 + DNSWatch + AuthPoint,True,35,15.0,30.0,Annual prepaid,24,143000,5h,escalated,True,35,"Routine annual true-up to match current headcount, no material change"
+WG-10505,ACC-002,Apex Secure Networks,Marcus T.,AM,Backup,False,8,5.0,15.0,Annual prepaid,12,9200,12m,cleared,True,6,"Straight renewal at the same seat count, no change in usage"
+WG-9560,ACC-024,Sequoia Family Dental Group,Ananya S.,NCA,Firebox M590 + Endpoint Security + Backup,True,15,8.0,25.0,Annual prepaid,12,22429,"Aug 18, 2024",cleared,False,,
+WG-9567,ACC-003,Ashgrove Veterinary Network,Daniel R.,NCA,AuthPoint,False,15,53.0,35.0,Monthly,36,17896,"Aug 24, 2024",discarded,False,,
+WG-9571,ACC-018,Milestone Construction Group,Jordan K.,AM,Endpoint Security,False,30,13.0,25.0,Annual prepaid,12,63829,"Sep 9, 2024",approved,True,41,Renewing as-is while they evaluate their roadmap for next year
+WG-9580,ACC-021,Palisade County Government,Tomas W.,AM,Firebox M590 + Endpoint Security,True,18,29.0,35.0,Annual prepaid,24,13613,"Sep 20, 2024",cleared,False,,
+WG-9591,ACC-010,Emberly Biotech Labs,Hassan D.,NCA,Endpoint Security + Backup,False,10,36.0,25.0,Monthly,12,19831,"Sep 23, 2024",escalated,True,7,Landed a large new contract and is scaling their team to support it
+WG-9595,ACC-009,Crestpoint Municipal Utilities,Jordan K.,AM,DNSWatch + AuthPoint,False,12,19.0,30.0,Monthly,24,10391,"Sep 24, 2024",approved,True,16,Restructuring the team and consolidating licenses down to active users only
+WG-9604,ACC-010,Emberly Biotech Labs,Leo B.,AM,Endpoint Security + Backup,False,40,19.0,20.0,Quarterly,36,90783,"Sep 26, 2024",cleared,True,40,"Straight renewal at the same seat count, no change in usage"
+WG-9611,ACC-016,Lakeshore School District,Ananya S.,NCA,Secure Wi-Fi,False,50,30.0,35.0,Quarterly,36,75500,"Sep 29, 2024",cleared,False,,
+WG-9622,ACC-013,Greenfield Ag Cooperative,Grace L.,AM,Endpoint Security,False,35,11.0,15.0,Monthly,36,44275,"Oct 6, 2024",approved,False,,
+WG-9628,ACC-010,Emberly Biotech Labs,Jordan K.,AM,Firebox M590 + DNSWatch,True,50,17.0,20.0,Annual prepaid,12,91646,"Oct 31, 2024",cleared,True,39,"Straight renewal at the same seat count, no change in usage"
+WG-9638,ACC-030,Windmere Hotels & Resorts,Elena F.,AM,Firebox M590 + AuthPoint,True,10,22.0,30.0,Monthly,24,18625,"Nov 17, 2024",cleared,True,14,Renewing as-is while they evaluate their roadmap for next year
+WG-9642,ACC-001,Alderbrook Community College,Leo B.,AM,Firebox M590 + DNSWatch,True,8,9.0,35.0,Monthly,12,11864,"Nov 28, 2024",approved,True,5,"Business grew faster than forecast this quarter, existing seats are maxed out"
+WG-9652,ACC-010,Emberly Biotech Labs,Tomas W.,AM,DNSWatch + AuthPoint,False,30,18.0,25.0,Monthly,36,47178,"Nov 29, 2024",approved,False,,
+WG-9662,ACC-018,Milestone Construction Group,Marcus T.,AM,Firebox M590 + Endpoint Security + Backup,True,20,18.0,25.0,Annual prepaid,36,35474,"Dec 2, 2024",cleared,True,25,Said budget was cut this cycle and they need to scale back spend
+WG-9668,ACC-023,Redstone Manufacturing Co.,Nadia P.,NCA,Firebox M590 + Endpoint Security,True,40,19.0,25.0,Annual prepaid,24,30233,"Dec 3, 2024",cleared,False,,
+WG-9673,ACC-024,Sequoia Family Dental Group,Leo B.,AM,Endpoint Security,False,40,19.0,20.0,Annual prepaid,24,64066,"Dec 7, 2024",cleared,False,,
+WG-9676,ACC-014,Harborline Logistics,Owen T.,NCA,Secure Wi-Fi,False,18,26.0,35.0,Quarterly,12,26916,"Dec 11, 2024",approved,False,,
+WG-9684,ACC-016,Lakeshore School District,Grace L.,AM,Secure Wi-Fi,False,60,27.0,30.0,Quarterly,36,110406,"Dec 23, 2024",approved,False,,
+WG-9694,ACC-024,Sequoia Family Dental Group,Jordan K.,AM,Secure Wi-Fi,False,20,14.0,15.0,Monthly,24,28412,"Dec 26, 2024",approved,False,,
+WG-9704,ACC-022,Parkview Behavioral Health,Marcus T.,AM,Firebox M590 + AuthPoint,True,25,2.0,15.0,Monthly,36,23040,"Dec 30, 2024",approved,False,,
+WG-9713,ACC-006,Cascade Ridge Financial,Owen T.,NCA,Firebox M590 + Endpoint Security + Backup,True,8,9.0,15.0,Monthly,24,11416,"Jan 13, 2025",cleared,True,8,Renewing as-is while they evaluate their roadmap for next year
+WG-9722,ACC-023,Redstone Manufacturing Co.,Grace L.,AM,Secure Wi-Fi,False,12,2.0,15.0,Monthly,12,31954,"Jan 14, 2025",approved,True,10,Renewing as-is while they evaluate their roadmap for next year
+WG-9728,ACC-019,Northgate Retail Holdings,Daniel R.,NCA,Endpoint Security + Backup,False,4,11.0,15.0,Annual prepaid,12,4102,"Jan 20, 2025",approved,True,7,Renewing as-is while they evaluate their roadmap for next year
+WG-9733,ACC-013,Greenfield Ag Cooperative,Elena F.,AM,Firebox M590 + Endpoint Security,True,30,13.0,20.0,Monthly,36,31753,"Jan 21, 2025",cleared,False,,
+WG-9737,ACC-001,Alderbrook Community College,Owen T.,NCA,Endpoint Security,False,12,28.0,15.0,Quarterly,12,17068,"Jan 25, 2025",escalated,True,9,Opening a second office location and wants everyone on the same footprint
+WG-9741,ACC-011,Fairhaven Regional Hospital,Hassan D.,NCA,Endpoint Security + Backup,False,10,11.0,15.0,Quarterly,24,21981,"Jan 27, 2025",approved,False,,
+WG-9744,ACC-005,Briarwood Senior Living,Tomas W.,AM,Secure Wi-Fi,False,35,2.0,25.0,Annual prepaid,36,83806,"Jan 28, 2025",approved,False,,
+WG-9754,ACC-017,Meridian Health Systems,Leo B.,AM,Backup,False,35,25.0,30.0,Quarterly,12,62208,"Feb 12, 2025",cleared,False,,
+WG-9761,ACC-021,Palisade County Government,Grace L.,AM,DNSWatch + AuthPoint,False,50,20.0,30.0,Monthly,24,58590,"Feb 14, 2025",approved,False,,
+WG-9767,ACC-027,Tidewater Marine Services,Daniel R.,NCA,AuthPoint,False,75,23.0,30.0,Annual prepaid,24,104455,"Mar 11, 2025",approved,False,,
+WG-9770,ACC-013,Greenfield Ag Cooperative,Owen T.,NCA,Backup,False,8,12.0,30.0,Annual prepaid,24,12759,"Mar 18, 2025",approved,False,,
+WG-9777,ACC-007,Cobalt River Analytics,Priya N.,AM,DNSWatch + AuthPoint,False,10,10.0,15.0,Annual prepaid,36,21988,"Mar 18, 2025",cleared,False,,
+WG-9787,ACC-019,Northgate Retail Holdings,Hassan D.,NCA,Firebox M590 + Endpoint Security + Backup,True,20,13.0,15.0,Annual prepaid,24,22968,"Apr 14, 2025",cleared,True,30,Restructuring the team and consolidating licenses down to active users only
+WG-9795,ACC-013,Greenfield Ag Cooperative,Tomas W.,AM,DNSWatch + AuthPoint,False,15,24.0,30.0,Quarterly,36,23654,"Apr 26, 2025",cleared,False,,
+WG-9802,ACC-023,Redstone Manufacturing Co.,Ananya S.,NCA,Firebox M590 + Endpoint Security,True,40,7.0,20.0,Monthly,12,39952,"Apr 27, 2025",approved,False,,
+WG-9812,ACC-023,Redstone Manufacturing Co.,Hassan D.,NCA,Firebox M590 + AuthPoint,True,50,42.0,35.0,Quarterly,24,60663,"Apr 29, 2025",discarded,False,,
+WG-9820,ACC-015,Ironwood Legal Partners,Jordan K.,AM,Firebox M590,True,40,5.0,35.0,Annual prepaid,24,70213,"May 10, 2025",cleared,True,40,"Straight renewal at the same seat count, no change in usage"
+WG-9825,ACC-019,Northgate Retail Holdings,Owen T.,NCA,Firebox M590 + Endpoint Security + Backup,True,6,9.0,15.0,Quarterly,24,7792,"May 12, 2025",approved,True,4,Administrative cleanup of unused seats flagged during a license audit
+WG-9828,ACC-023,Redstone Manufacturing Co.,Owen T.,NCA,Firebox M590 + Endpoint Security + Backup,True,6,12.0,15.0,Monthly,24,10969,"May 12, 2025",cleared,True,9,Administrative cleanup of unused seats flagged during a license audit
+WG-9833,ACC-006,Cascade Ridge Financial,Grace L.,AM,Firebox M590 + AuthPoint,True,12,8.0,15.0,Annual prepaid,12,25475,"May 15, 2025",approved,True,9,Landed a large new contract and is scaling their team to support it
+WG-9839,ACC-001,Alderbrook Community College,Tomas W.,AM,Secure Wi-Fi,False,20,40.0,30.0,Monthly,36,38867,"May 20, 2025",discarded,False,,
+WG-9842,ACC-021,Palisade County Government,Hassan D.,NCA,Firebox M590 + Endpoint Security,True,50,4.0,20.0,Quarterly,12,46514,"May 25, 2025",cleared,False,,
+WG-9847,ACC-007,Cobalt River Analytics,Daniel R.,NCA,Endpoint Security,False,4,11.0,30.0,Monthly,36,3060,"May 30, 2025",approved,False,,
+WG-9854,ACC-025,Silverline Freight Systems,Jordan K.,AM,Firebox M590 + Endpoint Security + Backup,True,6,8.0,20.0,Monthly,36,8260,"Jun 17, 2025",approved,True,8,Customer is reducing headcount after a round of layoffs
+WG-9865,ACC-024,Sequoia Family Dental Group,Elena F.,AM,Endpoint Security,False,75,11.0,25.0,Annual prepaid,12,139512,"Jun 26, 2025",cleared,False,,
+WG-9872,ACC-026,Talus Peak Engineering,Daniel R.,NCA,Firebox M590 + Endpoint Security + Backup,True,40,42.0,25.0,Quarterly,24,70745,"Jul 21, 2025",escalated,True,40,Administrative cleanup of unused seats flagged during a license audit
+WG-9882,ACC-004,BluePeak Technologies,Ravi C.,NCA,Firebox M590,True,75,2.0,30.0,Quarterly,24,59400,"Jul 22, 2025",approved,True,63,"Routine annual true-up to match current headcount, no material change"
+WG-9885,ACC-001,Alderbrook Community College,Elena F.,AM,AuthPoint,False,30,9.0,15.0,Annual prepaid,24,75058,"Aug 1, 2025",approved,False,,
+WG-9890,ACC-011,Fairhaven Regional Hospital,Leo B.,AM,Endpoint Security + Backup,False,60,12.0,30.0,Annual prepaid,24,79409,"Aug 12, 2025",cleared,False,,
+WG-9894,ACC-003,Ashgrove Veterinary Network,Marcus T.,AM,Backup,False,18,48.0,30.0,Monthly,36,14375,"Aug 16, 2025",escalated,True,26,"Routine annual true-up to match current headcount, no material change"
+WG-9898,ACC-029,Vantage Point Insurance,Jordan K.,AM,Backup,False,6,19.0,30.0,Quarterly,12,11161,"Aug 23, 2025",approved,False,,
+WG-9901,ACC-014,Harborline Logistics,Tomas W.,AM,Backup,False,30,8.0,30.0,Quarterly,24,37379,"Aug 28, 2025",approved,False,,
+WG-9906,ACC-022,Parkview Behavioral Health,Jordan K.,AM,Firebox M590 + Endpoint Security + Backup,True,75,38.0,30.0,Annual prepaid,12,153772,"Sep 10, 2025",discarded,True,62,Opening a second office location and wants everyone on the same footprint
+WG-9913,ACC-007,Cobalt River Analytics,Priya N.,AM,DNSWatch + AuthPoint,False,18,3.0,15.0,Annual prepaid,12,34429,"Oct 5, 2025",approved,False,,
+WG-9923,ACC-022,Parkview Behavioral Health,Hassan D.,NCA,AuthPoint,False,25,33.0,25.0,Monthly,24,41390,"Oct 10, 2025",discarded,False,,
+WG-9928,ACC-008,Copperline Credit Union,Ananya S.,NCA,Firebox M590 + AuthPoint,True,25,15.0,20.0,Annual prepaid,24,35059,"Oct 11, 2025",approved,False,,
+WG-9935,ACC-027,Tidewater Marine Services,Priya N.,AM,AuthPoint,False,40,41.0,25.0,Quarterly,36,94597,"Oct 22, 2025",discarded,False,,
+WG-9945,ACC-007,Cobalt River Analytics,Nadia P.,NCA,Backup,False,15,22.0,35.0,Quarterly,24,35745,"Oct 26, 2025",cleared,True,21,Customer is reducing headcount after a round of layoffs
+WG-9951,ACC-011,Fairhaven Regional Hospital,Leo B.,AM,Firebox M590 + DNSWatch,True,60,24.0,30.0,Annual prepaid,24,149823,"Oct 29, 2025",approved,False,,
+WG-9960,ACC-010,Emberly Biotech Labs,Grace L.,AM,Endpoint Security + Backup,False,8,20.0,30.0,Annual prepaid,12,9554,"Nov 10, 2025",approved,True,8,"Straight renewal at the same seat count, no change in usage"
+WG-9970,ACC-017,Meridian Health Systems,Tomas W.,AM,Firebox M590 + Endpoint Security + Backup,True,4,23.0,20.0,Monthly,36,6915,"Dec 28, 2025",rejected,True,1,"Routine annual true-up to match current headcount, no material change"
+WG-9978,ACC-021,Palisade County Government,Hassan D.,NCA,Secure Wi-Fi,False,35,8.0,15.0,Monthly,36,90484,"Jan 14, 2026",approved,False,,
+WG-9988,ACC-003,Ashgrove Veterinary Network,Tomas W.,AM,Firebox M590,True,30,6.0,15.0,Annual prepaid,36,31190,"Feb 24, 2026",approved,True,32,"Routine annual true-up to match current headcount, no material change"
+WG-9997,ACC-017,Meridian Health Systems,Grace L.,AM,Endpoint Security + Backup,False,40,2.0,15.0,Monthly,12,28917,"Mar 2, 2026",approved,True,33,Landed a large new contract and is scaling their team to support it
+WG-10000,ACC-016,Lakeshore School District,Sofia M.,NCA,Backup,False,18,7.0,20.0,Annual prepaid,36,16998,"Mar 3, 2026",cleared,False,,
+WG-10004,ACC-021,Palisade County Government,Owen T.,NCA,Secure Wi-Fi,False,30,16.0,20.0,Monthly,36,57760,"Mar 4, 2026",cleared,False,,
+WG-10014,ACC-023,Redstone Manufacturing Co.,Elena F.,AM,Firebox M590,True,75,4.0,30.0,Monthly,36,114130,"Mar 5, 2026",approved,False,,
+WG-10021,ACC-019,Northgate Retail Holdings,Leo B.,AM,AuthPoint,False,20,5.0,25.0,Annual prepaid,24,23324,"Mar 11, 2026",approved,False,,
+WG-10029,ACC-011,Fairhaven Regional Hospital,Jordan K.,AM,AuthPoint,False,4,23.0,30.0,Monthly,12,7673,"Mar 12, 2026",approved,False,,
+WG-10039,ACC-027,Tidewater Marine Services,Jordan K.,AM,Firebox M590 + DNSWatch,True,30,10.0,25.0,Annual prepaid,36,63540,"Apr 3, 2026",cleared,True,39,Said budget was cut this cycle and they need to scale back spend
+WG-10044,ACC-019,Northgate Retail Holdings,Daniel R.,NCA,Endpoint Security + Backup,False,35,7.0,15.0,Monthly,24,73041,"Apr 26, 2026",cleared,True,35,Renewing as-is while they evaluate their roadmap for next year
+WG-10048,ACC-022,Parkview Behavioral Health,Jordan K.,AM,Backup,False,40,19.0,30.0,Annual prepaid,12,97257,"May 12, 2026",cleared,False,,
+WG-10059,ACC-028,Union Square Law Group,Jordan K.,AM,Endpoint Security,False,12,34.0,30.0,Monthly,36,17824,"May 26, 2026",returned,False,,
+WG-10064,ACC-001,Alderbrook Community College,Ananya S.,NCA,Endpoint Security + Backup,False,40,14.0,30.0,Quarterly,24,25786,"May 26, 2026",cleared,True,34,"Routine annual true-up to match current headcount, no material change"
+WG-10075,ACC-017,Meridian Health Systems,Nadia P.,NCA,Backup,False,35,13.0,25.0,Quarterly,24,29150,"May 29, 2026",approved,False,,
+WG-10085,ACC-020,Northstar Managed Services,Ravi C.,NCA,DNSWatch + AuthPoint,False,15,31.0,35.0,Annual prepaid,36,37905,"Jun 25, 2026",cleared,False,,
+WG-10094,ACC-017,Meridian Health Systems,Marcus T.,AM,Firebox M590,True,4,19.0,25.0,Monthly,12,5191,"Jun 28, 2026",cleared,True,6,"Straight renewal at the same seat count, no change in usage"
+WG-10104,ACC-005,Briarwood Senior Living,Elena F.,AM,DNSWatch + AuthPoint,False,18,28.0,35.0,Quarterly,36,34249,"Jun 29, 2026",cleared,False,,
+WG-10114,ACC-021,Palisade County Government,Leo B.,AM,AuthPoint,False,4,9.0,25.0,Annual prepaid,24,10875,"Jul 1, 2026",cleared,False,,
+WG-10118,ACC-010,Emberly Biotech Labs,Sofia M.,NCA,DNSWatch + AuthPoint,False,75,5.0,25.0,Annual prepaid,24,192950,"Jul 14, 2026",cleared,False,,
+WG-10122,ACC-010,Emberly Biotech Labs,Ananya S.,NCA,Endpoint Security + Backup,False,35,17.0,35.0,Annual prepaid,12,33120,"Jul 19, 2026",approved,True,25,Rolling this out to a newly onboarded department after a successful pilot
+WG-10128,ACC-004,BluePeak Technologies,Owen T.,NCA,DNSWatch + AuthPoint,False,10,11.0,35.0,Annual prepaid,12,25532,"Jul 23, 2026",cleared,False,,
+WG-10131,ACC-023,Redstone Manufacturing Co.,Owen T.,NCA,Endpoint Security,False,8,3.0,35.0,Monthly,12,5573,"Aug 3, 2026",cleared,False,,
+WG-10139,ACC-012,Fenwick & Cole Accounting,Grace L.,AM,Firebox M590 + DNSWatch,True,30,6.0,25.0,Annual prepaid,12,65518,"Aug 7, 2026",cleared,False,,

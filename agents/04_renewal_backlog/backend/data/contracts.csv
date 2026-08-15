@@ -1,0 +1,31 @@
+account_id,product_bundle,term_months,start_date,renewal_date,arr,billing_model
+ACC-001,Firebox M590 + Endpoint Security,24,2025-11-01,2027-11-01,111000,Monthly
+ACC-002,Firebox M590 + Backup,12,2025-09-01,2026-09-01,84500,Annual prepaid
+ACC-003,Firebox M590 + Backup + Secure Wi-Fi,36,2024-07-01,2027-07-01,121000,Monthly
+ACC-004,Firebox M590,12,2025-11-01,2026-11-01,52000,Monthly
+ACC-005,Endpoint Security,12,2026-03-01,2027-03-01,22000,Annual prepaid
+ACC-006,Firebox M590,12,2025-11-01,2026-11-01,203000,Monthly
+ACC-007,Firebox M590 + Backup,36,2024-01-01,2027-01-01,210000,Annual prepaid
+ACC-008,Endpoint Security + Secure Wi-Fi,36,2025-04-01,2028-04-01,204000,Annual prepaid
+ACC-009,AuthPoint,12,2025-11-01,2026-11-01,154000,Monthly
+ACC-010,Endpoint Security + Firebox M590,24,2025-10-01,2027-10-01,38000,Monthly
+ACC-011,Secure Wi-Fi,36,2024-09-01,2027-09-01,93000,Quarterly
+ACC-012,Endpoint Security + Secure Wi-Fi,36,2025-02-01,2028-02-01,89000,Annual prepaid
+ACC-013,Secure Wi-Fi,12,2027-01-01,2028-01-01,198000,Monthly
+ACC-014,DNSWatch + Firebox M590 + Endpoint Security,12,2026-03-01,2027-03-01,192000,Quarterly
+ACC-015,Firebox M590,12,2027-03-01,2028-03-01,69000,Annual prepaid
+ACC-016,Endpoint Security + DNSWatch,36,2025-07-01,2028-07-01,104000,Quarterly
+ACC-017,Firebox M590 + Endpoint Security + DNSWatch,24,2025-01-01,2027-01-01,143000,Annual prepaid
+ACC-018,AuthPoint + Endpoint Security,24,2024-10-01,2026-10-01,185000,Annual prepaid
+ACC-019,Firebox M590 + Backup,12,2027-02-01,2028-02-01,74000,Annual prepaid
+ACC-020,Firebox M590 + Endpoint Security,36,2024-03-01,2027-03-01,128000,Annual prepaid
+ACC-021,Backup,12,2025-10-01,2026-10-01,155000,Annual prepaid
+ACC-022,DNSWatch + Endpoint Security + Secure Wi-Fi,12,2026-11-01,2027-11-01,31000,Monthly
+ACC-023,DNSWatch + Backup + Secure Wi-Fi,12,2027-06-01,2028-06-01,161000,Annual prepaid
+ACC-024,DNSWatch,12,2026-11-01,2027-11-01,102000,Annual prepaid
+ACC-025,Endpoint Security,12,2026-10-01,2027-10-01,63000,Monthly
+ACC-026,Backup + DNSWatch,12,2027-07-01,2028-07-01,155000,Quarterly
+ACC-027,Endpoint Security + Firebox M590 + Backup,36,2024-04-01,2027-04-01,61000,Annual prepaid
+ACC-028,Backup,24,2024-09-01,2026-09-01,149000,Monthly
+ACC-029,Endpoint Security,36,2025-07-01,2028-07-01,132000,Quarterly
+ACC-030,Firebox M590,36,2024-10-01,2027-10-01,42000,Monthly

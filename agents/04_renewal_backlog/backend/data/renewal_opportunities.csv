@@ -1,0 +1,31 @@
+renewal_id,account_id,account_name,am_owner,tier,product_bundle,term_months,expected_value,renewal_date,target_close_date,trigger_event,trigger_timestamp,created_timestamp,status
+REN-001,ACC-001,Alderbrook Community College,Jordan K.,Gold,Firebox M590 + Endpoint Security,24,111000,2027-11-01,2027-08-03,deal_closed_won,2025-11-01,2025-11-01,open
+REN-002,ACC-002,Apex Secure Networks,Marcus T.,Silver,Firebox M590 + Backup,12,84500,2026-09-01,2026-06-03,deal_closed_won,2025-09-01,2025-09-01,open
+REN-003,ACC-003,Ashgrove Veterinary Network,Jordan K.,Gold,Firebox M590 + Backup + Secure Wi-Fi,36,121000,2027-07-01,2027-04-02,deal_closed_won,2024-07-01,2024-07-01,open
+REN-004,ACC-004,BluePeak Technologies,Daniel R.,Silver,Firebox M590,12,52000,2026-11-01,2026-08-03,deal_closed_won,2025-11-01,2025-11-01,open
+REN-005,ACC-005,Briarwood Senior Living,Ravi C.,Bronze,Endpoint Security,12,22000,2027-03-01,2026-12-01,deal_closed_won,2026-03-01,2026-03-01,open
+REN-006,ACC-006,Cascade Ridge Financial,Elena F.,Platinum,Firebox M590,12,203000,2026-11-01,2026-08-03,deal_closed_won,2025-11-01,2025-11-01,open
+REN-007,ACC-007,Cobalt River Analytics,Jordan K.,Platinum,Firebox M590 + Backup,36,210000,2027-01-01,2026-10-03,deal_closed_won,2024-01-01,2024-01-01,open
+REN-008,ACC-008,Copperline Credit Union,Leo B.,Platinum,Endpoint Security + Secure Wi-Fi,36,204000,2028-04-01,2028-01-02,deal_closed_won,2025-04-01,2025-04-01,open
+REN-009,ACC-009,Crestpoint Municipal Utilities,Grace L.,Gold,AuthPoint,12,154000,2026-11-01,2026-08-03,deal_closed_won,2025-11-01,2025-11-01,open
+REN-010,ACC-010,Emberly Biotech Labs,Nadia P.,Bronze,Endpoint Security + Firebox M590,24,38000,2027-10-01,2027-07-03,deal_closed_won,2025-10-01,2025-10-01,open
+REN-011,ACC-011,Fairhaven Regional Hospital,Nadia P.,Silver,Secure Wi-Fi,36,93000,2027-09-01,2027-06-03,deal_closed_won,2024-09-01,2024-09-01,open
+REN-012,ACC-012,Fenwick & Cole Accounting,Priya N.,Silver,Endpoint Security + Secure Wi-Fi,36,89000,2028-02-01,2027-11-03,deal_closed_won,2025-02-01,2025-02-01,open
+REN-013,ACC-013,Greenfield Ag Cooperative,Daniel R.,Platinum,Secure Wi-Fi,12,198000,2028-01-01,2027-10-03,deal_closed_won,2027-01-01,2027-01-01,open
+REN-014,ACC-014,Harborline Logistics,Grace L.,Platinum,DNSWatch + Firebox M590 + Endpoint Security,12,192000,2027-03-01,2026-12-01,deal_closed_won,2026-03-01,2026-03-01,open
+REN-015,ACC-015,Ironwood Legal Partners,Ananya S.,Silver,Firebox M590,12,69000,2028-03-01,2027-12-02,deal_closed_won,2027-03-01,2027-03-01,open
+REN-016,ACC-016,Lakeshore School District,Elena F.,Gold,Endpoint Security + DNSWatch,36,104000,2028-07-01,2028-04-02,deal_closed_won,2025-07-01,2025-07-01,open
+REN-017,ACC-017,Meridian Health Systems,Ananya S.,Gold,Firebox M590 + Endpoint Security + DNSWatch,24,143000,2027-01-01,2026-10-03,deal_closed_won,2025-01-01,2025-01-01,open
+REN-018,ACC-018,Milestone Construction Group,Priya N.,Platinum,AuthPoint + Endpoint Security,24,185000,2026-10-01,2026-07-03,deal_closed_won,2024-10-01,2024-10-01,open
+REN-019,ACC-019,Northgate Retail Holdings,Marcus T.,Silver,Firebox M590 + Backup,12,74000,2028-02-01,2027-11-03,deal_closed_won,2027-02-01,2027-02-01,open
+REN-020,ACC-020,Northstar Managed Services,Priya N.,Gold,Firebox M590 + Endpoint Security,36,128000,2027-03-01,2026-12-01,deal_closed_won,2024-03-01,2024-03-01,open
+REN-021,ACC-021,Palisade County Government,Hassan D.,Gold,Backup,12,155000,2026-10-01,2026-07-03,deal_closed_won,2025-10-01,2025-10-01,open
+REN-022,ACC-022,Parkview Behavioral Health,Owen T.,Bronze,DNSWatch + Endpoint Security + Secure Wi-Fi,12,31000,2027-11-01,2027-08-03,deal_closed_won,2026-11-01,2026-11-01,open
+REN-023,ACC-023,Redstone Manufacturing Co.,Ananya S.,Gold,DNSWatch + Backup + Secure Wi-Fi,12,161000,2028-06-01,2028-03-03,deal_closed_won,2027-06-01,2027-06-01,open
+REN-024,ACC-024,Sequoia Family Dental Group,Tomas W.,Gold,DNSWatch,12,102000,2027-11-01,2027-08-03,deal_closed_won,2026-11-01,2026-11-01,open
+REN-025,ACC-025,Silverline Freight Systems,Marcus T.,Silver,Endpoint Security,12,63000,2027-10-01,2027-07-03,deal_closed_won,2026-10-01,2026-10-01,open
+REN-026,ACC-026,Talus Peak Engineering,Tomas W.,Gold,Backup + DNSWatch,12,155000,2028-07-01,2028-04-02,deal_closed_won,2027-07-01,2027-07-01,open
+REN-027,ACC-027,Tidewater Marine Services,Leo B.,Silver,Endpoint Security + Firebox M590 + Backup,36,61000,2027-04-01,2027-01-01,deal_closed_won,2024-04-01,2024-04-01,open
+REN-028,ACC-028,Union Square Law Group,Daniel R.,Gold,Backup,24,149000,2026-09-01,2026-06-03,deal_closed_won,2024-09-01,2024-09-01,open
+REN-029,ACC-029,Vantage Point Insurance,Tomas W.,Gold,Endpoint Security,36,132000,2028-07-01,2028-04-02,deal_closed_won,2025-07-01,2025-07-01,open
+REN-030,ACC-030,Windmere Hotels & Resorts,Ravi C.,Bronze,Firebox M590,36,42000,2027-10-01,2027-07-03,deal_closed_won,2024-10-01,2024-10-01,open

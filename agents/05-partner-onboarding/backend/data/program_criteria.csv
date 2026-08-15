@@ -1,0 +1,6 @@
+track,tier,discount_pct,min_volume_or_accounts,requires_wholesale_only,requires_direct_selling,requires_managed_services
+Distributor,Silver,10,20,True,False,False
+Distributor,Gold,18,75,True,False,False
+Reseller/MSP,Bronze,8,5,False,True,False
+Reseller/MSP,Silver,12,15,False,True,True
+Reseller/MSP,Gold,20,50,False,True,True

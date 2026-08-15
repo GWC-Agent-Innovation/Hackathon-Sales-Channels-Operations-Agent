@@ -1,0 +1,7 @@
+rep_id,conversion_ratio_target,deal_value_target,churn_rate_target
+REP-01,30,260000,
+REP-02,25,220000,
+REP-03,,90000,4
+REP-04,,70000,6
+REP-05,28,240000,
+REP-06,,85000,5

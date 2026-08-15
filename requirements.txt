@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+pydantic
+streamlit
+pandas
+openpyxl
+python-multipart
+groq

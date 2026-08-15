@@ -1,0 +1,28 @@
+id,opportunity_id,activity_date,activity_type,summary,commitment,commitment_fulfilled
+ACT-1,OPP-1001,2026-08-10,Call,Discovery call - contact wants throughput specs for 3 warehouse sites; rep said they would send the full spec sheet by end of week,Send full firewall spec sheet to Dana Cole,True
+ACT-2,OPP-1001,2026-08-06,Email,Sent initial product overview deck,,
+ACT-12,OPP-1002,2026-08-15,Call/Meeting,"Spoke with decision maker Priya Shah, who requested a sample HIPAA audit report.",Send a sample HIPAA audit report by next Monday.,False
+ACT-3,OPP-1002,2026-08-12,Call,Contact confirmed Q3 budget of 20000; asked about HIPAA compliance docs,,
+ACT-4,OPP-1002,2026-08-04,Email,Sent HIPAA compliance one-pager,,
+ACT-5,OPP-1003,2026-08-13,Email,Contact said proposal is with CFO for sign-off; expects an answer this week,,
+ACT-6,OPP-1003,2026-08-06,Meeting,Presented and shared final proposal with Cascade Outdoor Supply leadership team,,
+ACT-7,OPP-1004,2026-07-30,Call,Procurement asked to switch from monthly to annual billing terms; rep said they would follow up in two days with revised terms,Send revised annual billing terms to procurement,False
+ACT-8,OPP-1004,2026-07-10,Email,Shared proposal document with Union Pointe Realty legal team,,
+ACT-13,OPP-1005,2026-08-15,Call/Meeting,"The rep spoke with the final decision maker, Priya Shah, who confirmed the need for the purchase and requested a sample HIPAA audit report.",Send sample HIPAA audit report by next Monday.,False
+ACT-9,OPP-1005,2026-08-14,Call,Left voicemail; discovery call scheduled for 2026-08-18 with Marcus Webb,,
+ACT-10,OPP-1006,2026-08-09,Meeting,Security review kickoff with Harbor View Clinics IT team; rep promised a follow-up scoping document,Send multi-site scoping document,False
+ACT-11,OPP-1008,2026-07-29,Email,Sent final contract for signature to Trailhead Manufacturing signing officer,,
+ACT-13,OPP-1009,2026-08-14,Call,Discovery call - confirmed need for multi-site firewall coverage,,
+ACT-14,OPP-1009,2026-08-11,Email,Sent initial outreach following webinar signup,,
+ACT-15,OPP-1010,2026-08-13,Call,Managing partner Renata Diaz confirmed budget and that she is the decision maker,,
+ACT-16,OPP-1010,2026-08-02,Email,Sent endpoint security overview deck,,
+ACT-17,OPP-1011,2026-08-12,Call,CFO Elena Marsh requested the proposal be sent directly to her email,Send proposal directly to CFO Elena Marsh,False
+ACT-18,OPP-1011,2026-07-25,Meeting,Completed requirements scoping session with the IT team,,
+ACT-19,OPP-1012,2026-08-01,Email,Sent redlined contract terms to Copperfield legal team; promised a follow-up call within 3 days,Schedule follow-up call with Copperfield legal team,False
+ACT-20,OPP-1012,2026-07-22,Meeting,Negotiation kickoff meeting on commercial terms,,
+ACT-21,OPP-1013,2026-08-11,Email,Received full requirements checklist from Louis Farrow,,
+ACT-22,OPP-1014,2026-08-14,Email,Received signed contract from Carla Nguyen,,
+ACT-23,OPP-1015,2026-08-03,Call,Left voicemail; discovery call rescheduled with no new date set,,
+ACT-24,OPP-1016,2026-07-10,Email,Customer informed us they selected a competitor on price,,
+ACT-25,OPP-1017,2026-08-09,Call,Discussed pricing options with the decision maker; promised a discounted pricing sheet by end of week,Send discounted pricing sheet to Ravi Chandran,False
+ACT-26,OPP-1017,2026-07-29,Email,Sent initial proposal outline,,
