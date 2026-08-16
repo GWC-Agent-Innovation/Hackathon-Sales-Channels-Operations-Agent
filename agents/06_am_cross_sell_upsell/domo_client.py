@@ -49,7 +49,7 @@ def query_dataset(dataset_id: str, sql: str, timeout: int = 60) -> dict | None:
         return None
 
 
-def generate_text(prompt: str, system: str | None = None, timeout: int = 20) -> str | None:
+def generate_text(prompt: str, system: str | None = None, timeout: int | None = None) -> str | None:
     if not config.DOMO_API_KEY or not _ENDPOINT:
         return None
 

@@ -137,12 +137,13 @@ def render_opportunity_email(
 
 async def send_opportunity_email(
     subject: str = "Scaling Northstar's security coverage for your recent growth",
-    to_email: str = RECIPIENT_EMAIL,
+    to_emails: list[str] | None = None,
     **template_kwargs,
 ) -> None:
+    recipients = [e.strip() for e in (to_emails or []) if e and e.strip()] or [RECIPIENT_EMAIL]
     message = MessageSchema(
         subject=subject,
-        recipients=[to_email],
+        recipients=recipients,
         body=render_opportunity_email(subject=subject, **template_kwargs),
         subtype=MessageType.html,
     )

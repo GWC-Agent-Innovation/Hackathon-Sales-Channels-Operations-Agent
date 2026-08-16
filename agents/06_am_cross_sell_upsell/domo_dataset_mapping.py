@@ -1,7 +1,7 @@
 DOMO_DATASET_IDS = {
-    "accounts": "4e13a2ce-ea1f-46a4-8976-be9f2c11673c",
-    "detected_signals": "2fd3ac9e-e022-485e-af6b-a5b3c15e3ba8",
-    "tickets": "3ca88727-ed27-4a03-b55b-dffb0f6f5627",
-    "product_catalog": "cb57ba50-8195-41ee-a51a-c6f44465d7de",
-    "opportunities": "f78c5457-9105-4bfa-b330-e771d133cb32",
+    "accounts": "71b609f1-473f-45b4-8125-2e644b18c5e8",
+    "detected_signals": "da08eab6-18fb-4d21-9453-a5c4a3a13ee3",
+    "tickets": "89d15efc-a7ba-44c5-a439-48ca3fe0fdf0",
+    "product_catalog": "0d48f57d-6a32-4d09-8f28-4a8326c7c83d",
+    "opportunities": "425a4732-f43b-4c7a-89f8-97c07f8e700f",
 }

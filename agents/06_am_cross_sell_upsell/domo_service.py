@@ -64,6 +64,13 @@ def get_signals_by_account_id(account_id: str) -> list | None:
     return _rows(query_dataset(dataset_id, f"SELECT * FROM table WHERE account_id = '{account_id}'"))
 
 
+def get_tickets() -> list | None:
+    dataset_id = get_dataset_id("tickets")
+    if not dataset_id:
+        return None
+    return _rows(query_dataset(dataset_id, "SELECT * FROM table"))
+
+
 def get_tickets_by_account_id(account_id: str) -> list | None:
     dataset_id = get_dataset_id("tickets")
     if not dataset_id:
@@ -104,6 +111,7 @@ async def replace_opportunities(
     *,
     triggered_account_id: str | None = None,
     triggered_action: str | None = None,
+    triggered_to_emails: list[str] | None = None,
 ) -> bool:
     dataset_id = get_dataset_id("opportunities")
     if not dataset_id:
@@ -121,7 +129,7 @@ async def replace_opportunities(
     if ok and triggered_action == "approved" and triggered_account_id:
         row = next((r for r in rows if r.get("account_id") == triggered_account_id), None)
         if row:
-            await _send_approval_email(row)
+            await _send_approval_email(row, to_emails=triggered_to_emails)
 
     return ok
 
@@ -145,13 +153,14 @@ CUSTOMER_NAME_PLACEHOLDER = re.compile(
 )
 
 
-async def _send_approval_email(row: dict) -> None:
+async def _send_approval_email(row: dict, *, to_emails: list[str] | None = None) -> None:
     account_name = row.get("account_name") or ""
     potential_arr_usd = row.get("potential_arr_usd") or ""
     outreach_draft = CUSTOMER_NAME_PLACEHOLDER.sub(f"{account_name} team", row.get("outreach_draft") or "")
     try:
         await mailer.send_opportunity_email(
             subject=row.get("outreach_subject") or f"Scaling {account_name}'s coverage",
+            to_emails=to_emails,
             greeting_name=row.get("am_owner_name") or "",
             intro_html=outreach_draft,
             ask_html="",

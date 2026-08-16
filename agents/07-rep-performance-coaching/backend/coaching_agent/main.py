@@ -29,6 +29,14 @@ def list_reps():
 
 # ---- Screen 2: Rep Detail pop-up ----
 
+@app.get("/api/reps/{rep_id}/gap-analysis")
+def rep_gap_analysis(rep_id: str):
+    g = agent_logic.gap_analysis(rep_id)
+    if not g:
+        raise HTTPException(404, "Rep not found")
+    return g
+
+
 @app.get("/api/reps/{rep_id}/detail")
 def rep_detail(rep_id: str):
     review = agent_logic.review_rep(rep_id)

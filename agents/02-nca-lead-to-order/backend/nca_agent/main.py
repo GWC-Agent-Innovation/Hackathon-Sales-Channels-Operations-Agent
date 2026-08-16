@@ -79,6 +79,14 @@ def send_proposal(opp_id: str, edited_document: DocumentEdit | None = None):
     return result
 
 
+@app.post("/api/opportunities/{opp_id}/advance")
+def advance_stage(opp_id: str):
+    result = agent_logic.advance_stage_if_ready(opp_id)
+    if not result:
+        raise HTTPException(404, "Opportunity not found")
+    return result
+
+
 class ClosedLostRequest(BaseModel):
     reason: str
 

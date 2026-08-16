@@ -9,6 +9,7 @@ from .domo_service import (
     get_accounts,
     get_account_by_id,
     get_signals_by_account_id,
+    get_tickets,
     get_tickets_by_account_id,
     get_product_catalog,
     get_opportunities,
@@ -46,6 +47,11 @@ def account_by_id(account_id: str):
 @app.get("/api/accounts/{account_id}/signals")
 def signals_by_account(account_id: str):
     return get_signals_by_account_id(account_id)
+
+
+@app.get("/api/tickets")
+def tickets():
+    return get_tickets()
 
 
 @app.get("/api/accounts/{account_id}/tickets")
@@ -86,6 +92,7 @@ class OpportunityActionRequest(BaseModel):
     discard_reason: str | None = None
     outreach_subject: str | None = None
     outreach_draft: str | None = None
+    to_emails: list[str] | None = None
 
 
 @app.post("/api/accounts/{account_id}/actions")
@@ -121,7 +128,8 @@ async def submit_opportunity_action(account_id: str, body: OpportunityActionRequ
 
     try:
         ok = await replace_opportunities(
-            rows, triggered_account_id=account_id, triggered_action=body.action
+            rows, triggered_account_id=account_id, triggered_action=body.action,
+            triggered_to_emails=body.to_emails,
         )
     except ValueError as e:
         print(f"[actions] replace_opportunities raised ValueError: {e}")
