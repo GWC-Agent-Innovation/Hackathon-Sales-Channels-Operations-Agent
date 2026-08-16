@@ -170,14 +170,19 @@ Reviewer comment: {comment or '(none)'}
     return subject, body
 
 
-class DealEscalateEmailRequest(BaseModel):
-    to_email: str
+class DealEscalateEmailPreviewRequest(BaseModel):
     reviewer: str
     comment: str | None = None
 
 
-@app.post("/api/deals/{deal_id}/escalate-email")
-def escalate_deal_via_email(deal_id: str, body: DealEscalateEmailRequest):
+@app.post("/api/deals/{deal_id}/escalate-email/preview")
+def preview_escalation_email(deal_id: str, body: DealEscalateEmailPreviewRequest):
+    """
+    Builds the exact subject/body that /escalate-email would send, without
+    sending it and without touching the recipient address - lets the
+    frontend show the reviewer a preview before they type an address and
+    confirm the send.
+    """
     deal = dg_store.get_deal_row(deal_id)
     if deal is None:
         raise HTTPException(status_code=404, detail=f"Unknown deal_id: {deal_id}")
@@ -185,17 +190,41 @@ def escalate_deal_via_email(deal_id: str, body: DealEscalateEmailRequest):
         raise HTTPException(status_code=409, detail=f"Deal {deal_id} has already been decided.")
 
     subject, email_body = _build_escalation_email(deal_id, deal, body.reviewer, body.comment)
+    return {"subject": subject, "body": email_body}
+
+
+class DealEscalateEmailRequest(BaseModel):
+    to_email: str
+    reviewer: str
+    comment: str | None = None
+    # Reviewer may edit the previewed body before sending — fall back to the
+    # auto-generated one when omitted so older callers keep working.
+    subject: str | None = None
+    body: str | None = None
+
+
+@app.post("/api/deals/{deal_id}/escalate-email")
+def escalate_deal_via_email(deal_id: str, req: DealEscalateEmailRequest):
+    deal = dg_store.get_deal_row(deal_id)
+    if deal is None:
+        raise HTTPException(status_code=404, detail=f"Unknown deal_id: {deal_id}")
+    if dg_store.get_deal_decision(deal_id) is not None:
+        raise HTTPException(status_code=409, detail=f"Deal {deal_id} has already been decided.")
+
+    default_subject, default_body = _build_escalation_email(deal_id, deal, req.reviewer, req.comment)
+    subject = req.subject or default_subject
+    email_body = req.body or default_body
 
     try:
-        emailer.send_email(body.to_email, subject, email_body)
+        emailer.send_email(req.to_email, subject, email_body)
     except GmailNotConfigured as e:
         raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
         logger.exception("Escalation email failed for %s", deal_id)
         raise HTTPException(status_code=502, detail=f"Email send failed: {e}")
 
-    decision_row = dg_writer.write_deal_decision(deal_id, "escalated", body.reviewer, body.comment)
-    return {**decision_row, "emailed_to": body.to_email, "email_subject": subject}
+    decision_row = dg_writer.write_deal_decision(deal_id, "escalated", req.reviewer, req.comment)
+    return {**decision_row, "emailed_to": req.to_email, "email_subject": subject}
 
 
 @app.get("/api/deals/audit-log")
