@@ -49,8 +49,17 @@ cross_sell_app = _load_agent_app(
 coaching_app = _load_agent_app("07-rep-performance-coaching", "coaching_agent")
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Sales & Channel/Partner Operations - Agent Suite")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.mount("/agent1", deal_guardrail_app)
 app.mount("/agent2", nca_app)
