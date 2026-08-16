@@ -8,3 +8,5 @@ pandas
 openpyxl
 python-multipart
 groq
+httpx
+fastapi-mail
